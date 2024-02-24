@@ -1,0 +1,71 @@
+.icons {
+	display: flex;
+}
+
+.icons>li {
+	margin-inline: 20px;
+}
+
+
+.eg1 {
+	background-image:url("https://th.bing.com/th/id/OIP.Rnrgj7Qb6s3OS3Kr_dneuwHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+.title,.paragraph{
+	color: white;
+}
+.title{
+	margin-bottom: 20px;
+}
+
+.eg2{
+	width: 50%;
+	
+}
+.paragraph{
+	width: 45%;
+	border-top: 5px solid orangered;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+#body{
+	background-color: black;
+	color: white;
+}
+.pbd{
+	border-top: 3px solid orangered;
+	/* width: 350px; */
+}
+.h2{
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	border-bottom: 5px solid orangered;
+}
+.aboutus,.menu,.menuitems,.gallery,.findus,.footer,.gx{
+	margin: auto;
+	width: 85%;
+}
+.gallery{
+	/* height: 2500px; */
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	/* justify-content: space-between; */
+}
+.footer{
+	display: flex;
+	margin-top: 100px;
+	justify-content: space-between;
+}
+
+.carousel{
+	width: 85%;
+	margin: auto;
+}
+
